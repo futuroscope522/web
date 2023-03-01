@@ -1,0 +1,26 @@
+PROJECT_NAME: "web"
+env: "dev"
+version: "v0.0.1"
+startTime: "2022-11-26"
+machineID: 1
+port: 8090
+log:
+  level: "debug"
+  filename: "web_app.log"
+  MAX_SIZE: 200
+  MAX_AGE: 30
+  MAX_BACKUP: 7
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: ""
+  db_name: ""
+  MAX_OPEN_CONNS: 200
+  MAX_IDLE_CONNS: 50
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
